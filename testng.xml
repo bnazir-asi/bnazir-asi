@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="EMS" thread-count="1" parallel="none"  >
+ <test name="EMS" parallel="none">
+     <classes>
+       <class name="Master.EMS_Execution"/>
+     </classes>
+   </test>
+
+</suite>

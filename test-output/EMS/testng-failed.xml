@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [EMS]">
+  <test thread-count="1" name="EMS(failed)">
+    <classes>
+      <class name="Master.EMS_Execution">
+        <methods>
+          <include name="ChooseandCreateTemplate"/>
+          <include name="FromNameField_SettingsUpdated_CampaignVerification"/>
+          <include name="CreateCampaign_1_To_5_StepVerification"/>
+          <include name="Campaign_Saved_ToRecentDrafts"/>
+          <include name="DynamicListContacts_PreviewVerification"/>
+          <include name="CampaignEmail_SentVerification"/>
+          <include name="RecentDraftCampaignCopy"/>
+          <include name="ProductAlignementBelow"/>
+          <include name="NewTemplate_WithConfigurationCreation"/>
+          <include name="CopyAndMoveContactsFromLists"/>
+          <include name="TemplatesPublish"/>
+          <include name="CRMContacts_ContactsUnderList_AddFromCampaign"/>
+          <include name="teardown"/>
+          <include name="RecentSentCampaignCopy"/>
+          <include name="CampaignLevelListPreview"/>
+          <include name="Import_Contacts"/>
+          <include name="CampaignInfo_Creation"/>
+          <include name="AddNewIndivisualContactListManagementPage"/>
+          <include name="List_CreationFromListPage"/>
+          <include name="LoginApp"/>
+          <include name="Campaign_EditorCreation"/>
+          <include name="getResult"/>
+          <include name="DeleteContact"/>
+          <include name="UpdateFromNameSendStep"/>
+          <include name="UpdateSubjectNameSendStep"/>
+          <include name="BulkDeleteListListManagementPage"/>
+          <include name="Campaign_Saved_To_RecentDraftsFromRecentDrafts"/>
+          <include name="ProductAlignementAbove"/>
+          <include name="Startup"/>
+          <include name="ProductAlignementRight"/>
+          <include name="List_CreationFromCampaign"/>
+          <include name="CopyListListManagementPage"/>
+          <include name="Settings_AlertMessageVerificationChangesUnsaved"/>
+          <include name="TemplatePreviewFromTemplateListing"/>
+          <include name="Unsubscribers_Report_fileDownload"/>
+          <include name="Indivisual_ContactsUnderList_AddFromCampaign"/>
+          <include name="ScheduledCampaignCancel"/>
+          <include name="ButtonText_Updation_VerificationTemplatesPage"/>
+          <include name="CRMContacts_ContactsUnderList_AddFromListPage"/>
+          <include name="LinkTOURLButton_PopUpMessageVerification"/>
+          <include name="BlankTemplateCreation_FromTemplatePage"/>
+          <include name="EmailMarketingLists_VerificationInCRMContacts"/>
+          <include name="ProductAlignementLeft"/>
+          <include name="ExportAll_Report_ForDistributor"/>
+          <include name="TemplatesUnPublish"/>
+          <include name="Indivisual_ContactsUnderList_AddFromListPage"/>
+          <include name="ScheduledCampaign"/>
+          <include name="CampaignPreview"/>
+          <include name="RecentDraftCampaignDelete"/>
+          <include name="MoveAndCopyContacts_ToList"/>
+          <include name="Settings_CompanyAddressVerification"/>
+          <include name="Delete_Template"/>
+          <include name="Campaign_Detail_ReportDownload"/>
+          <include name="SendTest_Email"/>
+          <include name="DynamicList_CreationWithVerification"/>
+          <include name="DeleteListListManagementPage"/>
+          <include name="Blank_TemplateCreation"/>
+          <include name="Campaign_Summary_ReportDownload"/>
+          <include name="TemplatePreview"/>
+          <include name="ButtonText_Updation_VerificationDuringCampaign"/>
+          <include name="Campaign_InfoCreation"/>
+          <include name="RecipientListSelectionTextVerification"/>
+          <include name="UpdateReplyToEmailSendStep"/>
+        </methods>
+      </class> <!-- Master.EMS_Execution -->
+    </classes>
+  </test> <!-- EMS(failed) -->
+</suite> <!-- Failed suite [EMS] -->

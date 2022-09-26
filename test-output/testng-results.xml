@@ -1,0 +1,1576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="57" passed="45" failed="12" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-23T16:20:42 PKT" name="Default suite" finished-at="2022-09-23T16:41:53 PKT" duration-ms="1271719">
+    <groups>
+    </groups>
+    <test started-at="2022-09-23T16:20:42 PKT" name="Default test" finished-at="2022-09-23T16:41:53 PKT" duration-ms="1271719">
+      <class name="Master.EMS_Execution">
+        <test-method is-config="true" signature="Startup()[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:20:42 PKT" name="Startup" finished-at="2022-09-23T16:21:00 PKT" duration-ms="18755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method signature="EmailMarketingLists_VerificationInCRMContacts()[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:21:00 PKT" name="EmailMarketingLists_VerificationInCRMContacts" finished-at="2022-09-23T16:27:07 PKT" duration-ms="366313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmailMarketingLists_VerificationInCRMContacts -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:27:07 PKT" name="getResult" finished-at="2022-09-23T16:27:07 PKT" duration-ms="182" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=EmailMarketingLists_VerificationInCRMContacts status=SUCCESS method=EMS_Execution.EmailMarketingLists_VerificationInCRMContacts()[pri:0, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="LoginApp()[pri:1, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:27:07 PKT" name="LoginApp" finished-at="2022-09-23T16:27:18 PKT" duration-ms="10967" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginApp -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:27:18 PKT" name="getResult" finished-at="2022-09-23T16:27:18 PKT" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginApp status=SUCCESS method=EMS_Execution.LoginApp()[pri:1, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CampaignInfo_Creation()[pri:2, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:27:18 PKT" name="CampaignInfo_Creation" finished-at="2022-09-23T16:27:38 PKT" duration-ms="19913" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CampaignInfo_Creation -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:27:38 PKT" name="getResult" finished-at="2022-09-23T16:27:38 PKT" duration-ms="27" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CampaignInfo_Creation status=SUCCESS method=EMS_Execution.CampaignInfo_Creation()[pri:2, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ChooseandCreateTemplate()[pri:3, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:27:38 PKT" name="ChooseandCreateTemplate" finished-at="2022-09-23T16:27:56 PKT" duration-ms="17972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChooseandCreateTemplate -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:27:56 PKT" name="getResult" finished-at="2022-09-23T16:27:56 PKT" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ChooseandCreateTemplate status=SUCCESS method=EMS_Execution.ChooseandCreateTemplate()[pri:3, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="LinkTOURLButton_PopUpMessageVerification()[pri:4, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:27:56 PKT" name="LinkTOURLButton_PopUpMessageVerification" finished-at="2022-09-23T16:28:23 PKT" duration-ms="27663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkTOURLButton_PopUpMessageVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:28:23 PKT" name="getResult" finished-at="2022-09-23T16:28:24 PKT" duration-ms="46" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LinkTOURLButton_PopUpMessageVerification status=SUCCESS method=EMS_Execution.LinkTOURLButton_PopUpMessageVerification()[pri:4, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ButtonText_Updation_VerificationDuringCampaign()[pri:5, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:28:24 PKT" name="ButtonText_Updation_VerificationDuringCampaign" finished-at="2022-09-23T16:28:29 PKT" duration-ms="5073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ButtonText_Updation_VerificationDuringCampaign -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:28:29 PKT" name="getResult" finished-at="2022-09-23T16:28:29 PKT" duration-ms="61" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ButtonText_Updation_VerificationDuringCampaign status=SUCCESS method=EMS_Execution.ButtonText_Updation_VerificationDuringCampaign()[pri:5, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ProductAlignementBelow()[pri:6, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:28:29 PKT" name="ProductAlignementBelow" finished-at="2022-09-23T16:28:51 PKT" duration-ms="21887" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductAlignementBelow -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:28:51 PKT" name="getResult" finished-at="2022-09-23T16:28:51 PKT" duration-ms="60" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ProductAlignementBelow status=SUCCESS method=EMS_Execution.ProductAlignementBelow()[pri:6, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ProductAlignementRight()[pri:7, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:28:51 PKT" name="ProductAlignementRight" finished-at="2022-09-23T16:28:53 PKT" duration-ms="2135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductAlignementRight -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:28:53 PKT" name="getResult" finished-at="2022-09-23T16:28:53 PKT" duration-ms="57" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ProductAlignementRight status=SUCCESS method=EMS_Execution.ProductAlignementRight()[pri:7, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ProductAlignementLeft()[pri:8, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:28:53 PKT" name="ProductAlignementLeft" finished-at="2022-09-23T16:28:55 PKT" duration-ms="2176" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductAlignementLeft -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:28:55 PKT" name="getResult" finished-at="2022-09-23T16:28:55 PKT" duration-ms="45" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ProductAlignementLeft status=SUCCESS method=EMS_Execution.ProductAlignementLeft()[pri:8, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ProductAlignementAbove()[pri:9, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:28:55 PKT" name="ProductAlignementAbove" finished-at="2022-09-23T16:28:57 PKT" duration-ms="2169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductAlignementAbove -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:28:57 PKT" name="getResult" finished-at="2022-09-23T16:28:57 PKT" duration-ms="48" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ProductAlignementAbove status=SUCCESS method=EMS_Execution.ProductAlignementAbove()[pri:9, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Campaign_EditorCreation()[pri:10, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:28:57 PKT" name="Campaign_EditorCreation" finished-at="2022-09-23T16:29:09 PKT" duration-ms="11555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Campaign_EditorCreation -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:29:09 PKT" name="getResult" finished-at="2022-09-23T16:29:09 PKT" duration-ms="54" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Campaign_EditorCreation status=SUCCESS method=EMS_Execution.Campaign_EditorCreation()[pri:10, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="RecipientListSelectionTextVerification()[pri:11, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:29:09 PKT" name="RecipientListSelectionTextVerification" finished-at="2022-09-23T16:29:09 PKT" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecipientListSelectionTextVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:29:09 PKT" name="getResult" finished-at="2022-09-23T16:29:09 PKT" duration-ms="56" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RecipientListSelectionTextVerification status=SUCCESS method=EMS_Execution.RecipientListSelectionTextVerification()[pri:11, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="List_CreationFromCampaign()[pri:12, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:29:09 PKT" name="List_CreationFromCampaign" finished-at="2022-09-23T16:29:17 PKT" duration-ms="7951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- List_CreationFromCampaign -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:29:17 PKT" name="getResult" finished-at="2022-09-23T16:29:17 PKT" duration-ms="59" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=List_CreationFromCampaign status=SUCCESS method=EMS_Execution.List_CreationFromCampaign()[pri:12, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Indivisual_ContactsUnderList_AddFromCampaign()[pri:13, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:29:17 PKT" name="Indivisual_ContactsUnderList_AddFromCampaign" finished-at="2022-09-23T16:29:28 PKT" duration-ms="11396" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Indivisual_ContactsUnderList_AddFromCampaign -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:29:28 PKT" name="getResult" finished-at="2022-09-23T16:29:28 PKT" duration-ms="66" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Indivisual_ContactsUnderList_AddFromCampaign status=SUCCESS method=EMS_Execution.Indivisual_ContactsUnderList_AddFromCampaign()[pri:13, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CRMContacts_ContactsUnderList_AddFromCampaign()[pri:14, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:29:28 PKT" name="CRMContacts_ContactsUnderList_AddFromCampaign" finished-at="2022-09-23T16:29:44 PKT" duration-ms="15659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CRMContacts_ContactsUnderList_AddFromCampaign -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:29:44 PKT" name="getResult" finished-at="2022-09-23T16:29:44 PKT" duration-ms="57" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CRMContacts_ContactsUnderList_AddFromCampaign status=SUCCESS method=EMS_Execution.CRMContacts_ContactsUnderList_AddFromCampaign()[pri:14, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="MoveAndCopyContacts_ToList()[pri:15, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:29:44 PKT" name="MoveAndCopyContacts_ToList" finished-at="2022-09-23T16:30:26 PKT" duration-ms="41685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveAndCopyContacts_ToList -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:30:26 PKT" name="getResult" finished-at="2022-09-23T16:30:26 PKT" duration-ms="59" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MoveAndCopyContacts_ToList status=SUCCESS method=EMS_Execution.MoveAndCopyContacts_ToList()[pri:15, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CampaignLevelListPreview()[pri:16, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:30:26 PKT" name="CampaignLevelListPreview" finished-at="2022-09-23T16:30:32 PKT" duration-ms="6254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CampaignLevelListPreview -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:30:32 PKT" name="getResult" finished-at="2022-09-23T16:30:32 PKT" duration-ms="56" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CampaignLevelListPreview status=SUCCESS method=EMS_Execution.CampaignLevelListPreview()[pri:16, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CampaignPreview()[pri:17, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:30:32 PKT" name="CampaignPreview" finished-at="2022-09-23T16:30:46 PKT" duration-ms="13603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CampaignPreview -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:30:46 PKT" name="getResult" finished-at="2022-09-23T16:30:46 PKT" duration-ms="46" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CampaignPreview status=SUCCESS method=EMS_Execution.CampaignPreview()[pri:17, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="SendTest_Email()[pri:18, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:30:46 PKT" name="SendTest_Email" finished-at="2022-09-23T16:30:54 PKT" duration-ms="8459" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button ng-disabled="!vmsc.testSendable()" ng-click="vmsc.sendTest(vm.originalCampaign.Id, vmsc.data.testRecipient)" class="btn btn-default pull-right ng-scope" translate="EMARKETING.BUTTONS.SEND_TEST">...</button> is not clickable at point (1230, 601). Other element would receive the click: <div class="block-ui-overlay"></div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MACPK-WKS-0250', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\BAKHTA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50461}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa0be286782e93dad45ad3aa95a665d1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button ng-disabled="!vmsc.testSendable()" ng-click="vmsc.sendTest(vm.originalCampaign.Id, vmsc.data.testRecipient)" class="btn btn-default pull-right ng-scope" translate="EMARKETING.BUTTONS.SEND_TEST">...</button> is not clickable at point (1230, 601). Other element would receive the click: <div class="block-ui-overlay"></div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MACPK-WKS-0250', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\BAKHTA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50461}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa0be286782e93dad45ad3aa95a665d1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at EMSTestCases.SendCampaigns.SendTestEmail(SendCampaigns.java:114)
+at Master.EMS_Execution.SendTest_Email(EMS_Execution.java:171)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendTest_Email -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:30:54 PKT" name="getResult" finished-at="2022-09-23T16:30:54 PKT" duration-ms="65" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SendTest_Email status=FAILURE method=EMS_Execution.SendTest_Email()[pri:18, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CreateCampaign_1_To_5_StepVerification()[pri:19, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:30:54 PKT" name="CreateCampaign_1_To_5_StepVerification" finished-at="2022-09-23T16:31:04 PKT" duration-ms="9586" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateCampaign_1_To_5_StepVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:31:04 PKT" name="getResult" finished-at="2022-09-23T16:31:04 PKT" duration-ms="51" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CreateCampaign_1_To_5_StepVerification status=SUCCESS method=EMS_Execution.CreateCampaign_1_To_5_StepVerification()[pri:19, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CampaignEmail_SentVerification()[pri:20, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:31:04 PKT" name="CampaignEmail_SentVerification" finished-at="2022-09-23T16:31:04 PKT" duration-ms="153" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at EMSTestCases.SendCampaigns.CampaignEmail_Sent_Verification(SendCampaigns.java:185)
+at Master.EMS_Execution.CampaignEmail_SentVerification(EMS_Execution.java:181)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CampaignEmail_SentVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:31:04 PKT" name="getResult" finished-at="2022-09-23T16:31:04 PKT" duration-ms="57" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CampaignEmail_SentVerification status=FAILURE method=EMS_Execution.CampaignEmail_SentVerification()[pri:20, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CopyAndMoveContactsFromLists()[pri:21, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:31:04 PKT" name="CopyAndMoveContactsFromLists" finished-at="2022-09-23T16:31:16 PKT" duration-ms="11730" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MACPK-WKS-0250', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\BAKHTA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50461}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa0be286782e93dad45ad3aa95a665d1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MACPK-WKS-0250', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\BAKHTA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50461}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa0be286782e93dad45ad3aa95a665d1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at EMSTestCases.SendCampaigns.CopyAndMoveContacts_FromLists(SendCampaigns.java:235)
+at Master.EMS_Execution.CopyAndMoveContactsFromLists(EMS_Execution.java:186)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CopyAndMoveContactsFromLists -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:31:16 PKT" name="getResult" finished-at="2022-09-23T16:31:16 PKT" duration-ms="43" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CopyAndMoveContactsFromLists status=FAILURE method=EMS_Execution.CopyAndMoveContactsFromLists()[pri:21, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="DeleteContact()[pri:22, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:31:16 PKT" name="DeleteContact" finished-at="2022-09-23T16:31:44 PKT" duration-ms="28092" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(@ng-click,'vm.changeCheckCount')]"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MACPK-WKS-0250', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\BAKHTA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50461}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa0be286782e93dad45ad3aa95a665d1
+*** Element info: {Using=xpath, value=//input[contains(@ng-click,'vm.changeCheckCount')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[contains(@ng-click,'vm.changeCheckCount')]"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MACPK-WKS-0250', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\BAKHTA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50461}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa0be286782e93dad45ad3aa95a665d1
+*** Element info: {Using=xpath, value=//input[contains(@ng-click,'vm.changeCheckCount')]}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at EMSTestCases.SendCampaigns.Delete_Contact(SendCampaigns.java:262)
+at Master.EMS_Execution.DeleteContact(EMS_Execution.java:191)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteContact -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:31:44 PKT" name="getResult" finished-at="2022-09-23T16:31:44 PKT" duration-ms="50" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteContact status=FAILURE method=EMS_Execution.DeleteContact()[pri:22, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="List_CreationFromListPage()[pri:23, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:31:44 PKT" name="List_CreationFromListPage" finished-at="2022-09-23T16:31:55 PKT" duration-ms="10991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- List_CreationFromListPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:31:55 PKT" name="getResult" finished-at="2022-09-23T16:31:55 PKT" duration-ms="42" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=List_CreationFromListPage status=SUCCESS method=EMS_Execution.List_CreationFromListPage()[pri:23, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Indivisual_ContactsUnderList_AddFromListPage()[pri:24, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:31:55 PKT" name="Indivisual_ContactsUnderList_AddFromListPage" finished-at="2022-09-23T16:32:09 PKT" duration-ms="13431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Indivisual_ContactsUnderList_AddFromListPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:32:09 PKT" name="getResult" finished-at="2022-09-23T16:32:09 PKT" duration-ms="37" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Indivisual_ContactsUnderList_AddFromListPage status=SUCCESS method=EMS_Execution.Indivisual_ContactsUnderList_AddFromListPage()[pri:24, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CRMContacts_ContactsUnderList_AddFromListPage()[pri:25, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:32:09 PKT" name="CRMContacts_ContactsUnderList_AddFromListPage" finished-at="2022-09-23T16:32:48 PKT" duration-ms="39623" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//tbody/tr[1]"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MACPK-WKS-0250', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\BAKHTA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50461}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa0be286782e93dad45ad3aa95a665d1
+*** Element info: {Using=xpath, value=//tbody/tr[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//tbody/tr[1]"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MACPK-WKS-0250', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\BAKHTA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50461}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa0be286782e93dad45ad3aa95a665d1
+*** Element info: {Using=xpath, value=//tbody/tr[1]}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
+at EMSTestCases.CreateListAndContactsFromListPage.CRMContacts_ContactsUnderList_Add_FromListPage(CreateListAndContactsFromListPage.java:142)
+at Master.EMS_Execution.CRMContacts_ContactsUnderList_AddFromListPage(EMS_Execution.java:208)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CRMContacts_ContactsUnderList_AddFromListPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:32:48 PKT" name="getResult" finished-at="2022-09-23T16:32:48 PKT" duration-ms="56" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CRMContacts_ContactsUnderList_AddFromListPage status=FAILURE method=EMS_Execution.CRMContacts_ContactsUnderList_AddFromListPage()[pri:25, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="CopyListListManagementPage()[pri:26, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:32:48 PKT" name="CopyListListManagementPage" finished-at="2022-09-23T16:32:49 PKT" duration-ms="1058" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <span translate="NAVIGATION.LISTS" class="ng-scope">...</span> is not clickable at point (472, 59). Other element would receive the click: <div class="container-fluid overlay-container" id="emsInfiniteScrollContainer">...</div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MACPK-WKS-0250', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\BAKHTA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50461}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa0be286782e93dad45ad3aa95a665d1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <span translate="NAVIGATION.LISTS" class="ng-scope">...</span> is not clickable at point (472, 59). Other element would receive the click: <div class="container-fluid overlay-container" id="emsInfiniteScrollContainer">...</div>
+  (Session info: chrome=105.0.5195.127)
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MACPK-WKS-0250', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\BAKHTA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50461}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa0be286782e93dad45ad3aa95a665d1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at EMSTestCases.ListManagementPage_Features.CopyList_ListManagementPage(ListManagementPage_Features.java:30)
+at Master.EMS_Execution.CopyListListManagementPage(EMS_Execution.java:214)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CopyListListManagementPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:32:49 PKT" name="getResult" finished-at="2022-09-23T16:32:49 PKT" duration-ms="54" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CopyListListManagementPage status=FAILURE method=EMS_Execution.CopyListListManagementPage()[pri:26, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="AddNewIndivisualContactListManagementPage()[pri:27, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:32:49 PKT" name="AddNewIndivisualContactListManagementPage" finished-at="2022-09-23T16:33:21 PKT" duration-ms="31439" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: element is not attached to the page document
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MACPK-WKS-0250', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\BAKHTA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50461}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa0be286782e93dad45ad3aa95a665d1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MACPK-WKS-0250', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\BAKHTA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50461}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa0be286782e93dad45ad3aa95a665d1
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+at EMSTestCases.ListManagementPage_Features.AddNewIndivisualContact_ListManagementPage(ListManagementPage_Features.java:87)
+at Master.EMS_Execution.AddNewIndivisualContactListManagementPage(EMS_Execution.java:219)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewIndivisualContactListManagementPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:33:21 PKT" name="getResult" finished-at="2022-09-23T16:33:21 PKT" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddNewIndivisualContactListManagementPage status=FAILURE method=EMS_Execution.AddNewIndivisualContactListManagementPage()[pri:27, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="DeleteListListManagementPage()[pri:28, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:33:21 PKT" name="DeleteListListManagementPage" finished-at="2022-09-23T16:33:25 PKT" duration-ms="4513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteListListManagementPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:33:25 PKT" name="getResult" finished-at="2022-09-23T16:33:25 PKT" duration-ms="24" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DeleteListListManagementPage status=SUCCESS method=EMS_Execution.DeleteListListManagementPage()[pri:28, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="BulkDeleteListListManagementPage()[pri:29, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:33:25 PKT" name="BulkDeleteListListManagementPage" finished-at="2022-09-23T16:33:43 PKT" duration-ms="17678" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at EMSTestCases.ListManagementPage_Features.BulkDeleteList_ListManagementPage(ListManagementPage_Features.java:192)
+at Master.EMS_Execution.BulkDeleteListListManagementPage(EMS_Execution.java:229)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BulkDeleteListListManagementPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:33:43 PKT" name="getResult" finished-at="2022-09-23T16:33:43 PKT" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BulkDeleteListListManagementPage status=FAILURE method=EMS_Execution.BulkDeleteListListManagementPage()[pri:29, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ExportAll_Report_ForDistributor()[pri:33, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:33:43 PKT" name="ExportAll_Report_ForDistributor" finished-at="2022-09-23T16:33:51 PKT" duration-ms="8275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExportAll_Report_ForDistributor -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:33:51 PKT" name="getResult" finished-at="2022-09-23T16:33:51 PKT" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ExportAll_Report_ForDistributor status=SUCCESS method=EMS_Execution.ExportAll_Report_ForDistributor()[pri:33, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Campaign_Summary_ReportDownload()[pri:34, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:33:51 PKT" name="Campaign_Summary_ReportDownload" finished-at="2022-09-23T16:33:57 PKT" duration-ms="5179" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Campaign_Summary_ReportDownload -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:33:57 PKT" name="getResult" finished-at="2022-09-23T16:33:57 PKT" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Campaign_Summary_ReportDownload status=SUCCESS method=EMS_Execution.Campaign_Summary_ReportDownload()[pri:34, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Campaign_Detail_ReportDownload()[pri:35, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:33:57 PKT" name="Campaign_Detail_ReportDownload" finished-at="2022-09-23T16:34:02 PKT" duration-ms="5215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Campaign_Detail_ReportDownload -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:34:02 PKT" name="getResult" finished-at="2022-09-23T16:34:02 PKT" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Campaign_Detail_ReportDownload status=SUCCESS method=EMS_Execution.Campaign_Detail_ReportDownload()[pri:35, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Unsubscribers_Report_fileDownload()[pri:36, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:34:02 PKT" name="Unsubscribers_Report_fileDownload" finished-at="2022-09-23T16:34:15 PKT" duration-ms="13318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Unsubscribers_Report_fileDownload -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:34:15 PKT" name="getResult" finished-at="2022-09-23T16:34:15 PKT" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Unsubscribers_Report_fileDownload status=SUCCESS method=EMS_Execution.Unsubscribers_Report_fileDownload()[pri:36, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="RecentSentCampaignCopy()[pri:37, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:34:15 PKT" name="RecentSentCampaignCopy" finished-at="2022-09-23T16:34:25 PKT" duration-ms="9876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecentSentCampaignCopy -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:34:25 PKT" name="getResult" finished-at="2022-09-23T16:34:25 PKT" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RecentSentCampaignCopy status=SUCCESS method=EMS_Execution.RecentSentCampaignCopy()[pri:37, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="UpdateSubjectNameSendStep()[pri:38, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:34:25 PKT" name="UpdateSubjectNameSendStep" finished-at="2022-09-23T16:35:00 PKT" duration-ms="34870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateSubjectNameSendStep -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:35:00 PKT" name="getResult" finished-at="2022-09-23T16:35:00 PKT" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UpdateSubjectNameSendStep status=SUCCESS method=EMS_Execution.UpdateSubjectNameSendStep()[pri:38, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="UpdateFromNameSendStep()[pri:39, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:35:00 PKT" name="UpdateFromNameSendStep" finished-at="2022-09-23T16:35:13 PKT" duration-ms="12906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateFromNameSendStep -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:35:13 PKT" name="getResult" finished-at="2022-09-23T16:35:13 PKT" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UpdateFromNameSendStep status=SUCCESS method=EMS_Execution.UpdateFromNameSendStep()[pri:39, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="UpdateReplyToEmailSendStep()[pri:40, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:35:13 PKT" name="UpdateReplyToEmailSendStep" finished-at="2022-09-23T16:35:21 PKT" duration-ms="8004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateReplyToEmailSendStep -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:35:21 PKT" name="getResult" finished-at="2022-09-23T16:35:21 PKT" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=UpdateReplyToEmailSendStep status=SUCCESS method=EMS_Execution.UpdateReplyToEmailSendStep()[pri:40, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Campaign_Saved_ToRecentDrafts()[pri:41, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:35:21 PKT" name="Campaign_Saved_ToRecentDrafts" finished-at="2022-09-23T16:35:24 PKT" duration-ms="3323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Campaign_Saved_ToRecentDrafts -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:35:24 PKT" name="getResult" finished-at="2022-09-23T16:35:24 PKT" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Campaign_Saved_ToRecentDrafts status=SUCCESS method=EMS_Execution.Campaign_Saved_ToRecentDrafts()[pri:41, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="RecentDraftCampaignCopy()[pri:42, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:35:24 PKT" name="RecentDraftCampaignCopy" finished-at="2022-09-23T16:35:39 PKT" duration-ms="14244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecentDraftCampaignCopy -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:35:39 PKT" name="getResult" finished-at="2022-09-23T16:35:39 PKT" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RecentDraftCampaignCopy status=SUCCESS method=EMS_Execution.RecentDraftCampaignCopy()[pri:42, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Campaign_Saved_To_RecentDraftsFromRecentDrafts()[pri:43, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:35:39 PKT" name="Campaign_Saved_To_RecentDraftsFromRecentDrafts" finished-at="2022-09-23T16:36:26 PKT" duration-ms="47056" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Campaign_Saved_To_RecentDraftsFromRecentDrafts -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:36:26 PKT" name="getResult" finished-at="2022-09-23T16:36:26 PKT" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Campaign_Saved_To_RecentDraftsFromRecentDrafts status=SUCCESS method=EMS_Execution.Campaign_Saved_To_RecentDraftsFromRecentDrafts()[pri:43, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="RecentDraftCampaignDelete()[pri:44, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:36:26 PKT" name="RecentDraftCampaignDelete" finished-at="2022-09-23T16:36:31 PKT" duration-ms="5886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RecentDraftCampaignDelete -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:36:31 PKT" name="getResult" finished-at="2022-09-23T16:36:32 PKT" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RecentDraftCampaignDelete status=SUCCESS method=EMS_Execution.RecentDraftCampaignDelete()[pri:44, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="BlankTemplateCreation_FromTemplatePage()[pri:45, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:36:32 PKT" name="BlankTemplateCreation_FromTemplatePage" finished-at="2022-09-23T16:36:48 PKT" duration-ms="16026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BlankTemplateCreation_FromTemplatePage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:36:48 PKT" name="getResult" finished-at="2022-09-23T16:36:48 PKT" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=BlankTemplateCreation_FromTemplatePage status=SUCCESS method=EMS_Execution.BlankTemplateCreation_FromTemplatePage()[pri:45, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ButtonText_Updation_VerificationTemplatesPage()[pri:46, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:36:48 PKT" name="ButtonText_Updation_VerificationTemplatesPage" finished-at="2022-09-23T16:37:01 PKT" duration-ms="13921" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ButtonText_Updation_VerificationTemplatesPage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:37:01 PKT" name="getResult" finished-at="2022-09-23T16:37:01 PKT" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ButtonText_Updation_VerificationTemplatesPage status=SUCCESS method=EMS_Execution.ButtonText_Updation_VerificationTemplatesPage()[pri:46, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="TemplatePreview()[pri:47, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:37:01 PKT" name="TemplatePreview" finished-at="2022-09-23T16:37:32 PKT" duration-ms="30312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TemplatePreview -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:37:32 PKT" name="getResult" finished-at="2022-09-23T16:37:32 PKT" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TemplatePreview status=SUCCESS method=EMS_Execution.TemplatePreview()[pri:47, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="NewTemplate_WithConfigurationCreation()[pri:48, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:37:32 PKT" name="NewTemplate_WithConfigurationCreation" finished-at="2022-09-23T16:37:40 PKT" duration-ms="8430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewTemplate_WithConfigurationCreation -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:37:40 PKT" name="getResult" finished-at="2022-09-23T16:37:40 PKT" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NewTemplate_WithConfigurationCreation status=SUCCESS method=EMS_Execution.NewTemplate_WithConfigurationCreation()[pri:48, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="TemplatePreviewFromTemplateListing()[pri:49, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:37:40 PKT" name="TemplatePreviewFromTemplateListing" finished-at="2022-09-23T16:37:54 PKT" duration-ms="13384" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TemplatePreviewFromTemplateListing -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:37:54 PKT" name="getResult" finished-at="2022-09-23T16:37:54 PKT" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TemplatePreviewFromTemplateListing status=SUCCESS method=EMS_Execution.TemplatePreviewFromTemplateListing()[pri:49, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="TemplatesPublish()[pri:50, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:37:54 PKT" name="TemplatesPublish" finished-at="2022-09-23T16:38:08 PKT" duration-ms="14748" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at EMSTestCases.Templates.Templates_Publish(Templates.java:431)
+at Master.EMS_Execution.TemplatesPublish(EMS_Execution.java:341)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TemplatesPublish -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:38:08 PKT" name="getResult" finished-at="2022-09-23T16:38:08 PKT" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TemplatesPublish status=FAILURE method=EMS_Execution.TemplatesPublish()[pri:50, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="TemplatesUnPublish()[pri:51, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:38:08 PKT" name="TemplatesUnPublish" finished-at="2022-09-23T16:38:16 PKT" duration-ms="7475" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at org.testng.Assert.assertTrue(Assert.java:55)
+at EMSTestCases.Templates.Templates_UnPublish(Templates.java:474)
+at Master.EMS_Execution.TemplatesUnPublish(EMS_Execution.java:346)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TemplatesUnPublish -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:38:16 PKT" name="getResult" finished-at="2022-09-23T16:38:16 PKT" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TemplatesUnPublish status=FAILURE method=EMS_Execution.TemplatesUnPublish()[pri:51, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Delete_Template()[pri:52, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:38:16 PKT" name="Delete_Template" finished-at="2022-09-23T16:38:23 PKT" duration-ms="7480" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Delete_Template -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:38:23 PKT" name="getResult" finished-at="2022-09-23T16:38:23 PKT" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Delete_Template status=SUCCESS method=EMS_Execution.Delete_Template()[pri:52, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Settings_AlertMessageVerificationChangesUnsaved()[pri:53, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:38:23 PKT" name="Settings_AlertMessageVerificationChangesUnsaved" finished-at="2022-09-23T16:38:46 PKT" duration-ms="22104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Settings_AlertMessageVerificationChangesUnsaved -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:38:46 PKT" name="getResult" finished-at="2022-09-23T16:38:46 PKT" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Settings_AlertMessageVerificationChangesUnsaved status=SUCCESS method=EMS_Execution.Settings_AlertMessageVerificationChangesUnsaved()[pri:53, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="FromNameField_SettingsUpdated_CampaignVerification()[pri:54, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:38:46 PKT" name="FromNameField_SettingsUpdated_CampaignVerification" finished-at="2022-09-23T16:38:58 PKT" duration-ms="12299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FromNameField_SettingsUpdated_CampaignVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:38:58 PKT" name="getResult" finished-at="2022-09-23T16:38:58 PKT" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FromNameField_SettingsUpdated_CampaignVerification status=SUCCESS method=EMS_Execution.FromNameField_SettingsUpdated_CampaignVerification()[pri:54, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Campaign_InfoCreation()[pri:55, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:38:58 PKT" name="Campaign_InfoCreation" finished-at="2022-09-23T16:39:05 PKT" duration-ms="7262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Campaign_InfoCreation -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:39:05 PKT" name="getResult" finished-at="2022-09-23T16:39:05 PKT" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Campaign_InfoCreation status=SUCCESS method=EMS_Execution.Campaign_InfoCreation()[pri:55, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Blank_TemplateCreation()[pri:56, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:39:05 PKT" name="Blank_TemplateCreation" finished-at="2022-09-23T16:39:13 PKT" duration-ms="7914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Blank_TemplateCreation -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:39:13 PKT" name="getResult" finished-at="2022-09-23T16:39:13 PKT" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Blank_TemplateCreation status=SUCCESS method=EMS_Execution.Blank_TemplateCreation()[pri:56, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="Settings_CompanyAddressVerification()[pri:57, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:39:13 PKT" name="Settings_CompanyAddressVerification" finished-at="2022-09-23T16:39:16 PKT" duration-ms="3164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Settings_CompanyAddressVerification -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:39:16 PKT" name="getResult" finished-at="2022-09-23T16:39:16 PKT" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Settings_CompanyAddressVerification status=SUCCESS method=EMS_Execution.Settings_CompanyAddressVerification()[pri:57, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ScheduledCampaignCancel()[pri:58, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:39:16 PKT" name="ScheduledCampaignCancel" finished-at="2022-09-23T16:41:21 PKT" duration-ms="125177" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'toast-message')]"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MACPK-WKS-0250', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\BAKHTA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50461}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa0be286782e93dad45ad3aa95a665d1
+*** Element info: {Using=xpath, value=//div[contains(@class,'toast-message')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@class,'toast-message')]"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MACPK-WKS-0250', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\BAKHTA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50461}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa0be286782e93dad45ad3aa95a665d1
+*** Element info: {Using=xpath, value=//div[contains(@class,'toast-message')]}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy13.getText(Unknown Source)
+at EMSTestCases.Settings.ScheduledCampaign_Cancel(Settings.java:359)
+at Master.EMS_Execution.ScheduledCampaignCancel(EMS_Execution.java:387)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScheduledCampaignCancel -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:41:21 PKT" name="getResult" finished-at="2022-09-23T16:41:21 PKT" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ScheduledCampaignCancel status=FAILURE method=EMS_Execution.ScheduledCampaignCancel()[pri:58, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="ScheduledCampaign()[pri:59, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:41:21 PKT" name="ScheduledCampaign" finished-at="2022-09-23T16:41:53 PKT" duration-ms="31336" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@translate,'EMARKETING.CAMPAIGNS.SCHEDULED')]"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MACPK-WKS-0250', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\BAKHTA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50461}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa0be286782e93dad45ad3aa95a665d1
+*** Element info: {Using=xpath, value=//div[contains(@translate,'EMARKETING.CAMPAIGNS.SCHEDULED')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[contains(@translate,'EMARKETING.CAMPAIGNS.SCHEDULED')]"}
+  (Session info: chrome=105.0.5195.127)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'MACPK-WKS-0250', ip: '192.168.8.101', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.1.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.127, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\BAKHTA~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:50461}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: fa0be286782e93dad45ad3aa95a665d1
+*** Element info: {Using=xpath, value=//div[contains(@translate,'EMARKETING.CAMPAIGNS.SCHEDULED')]}
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy13.isDisplayed(Unknown Source)
+at EMSTestCases.Settings.Scheduled_Campaign(Settings.java:425)
+at Master.EMS_Execution.ScheduledCampaign(EMS_Execution.java:393)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScheduledCampaign -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:41:53 PKT" name="getResult" finished-at="2022-09-23T16:41:53 PKT" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ScheduledCampaign status=FAILURE method=EMS_Execution.ScheduledCampaign()[pri:59, instance:Master.EMS_Execution@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:Master.EMS_Execution@7c729a55]" started-at="2022-09-23T16:41:53 PKT" name="teardown" finished-at="2022-09-23T16:41:53 PKT" duration-ms="427" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Master.EMS_Execution -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
